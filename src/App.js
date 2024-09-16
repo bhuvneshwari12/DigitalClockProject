@@ -21,6 +21,7 @@ const App = () => {
   }, []);
 
   return (
+  
     <div className="main-container">
       <div className="clock-container">
         <div className="digital-clock">{dateTime.time}</div>
@@ -30,6 +31,7 @@ const App = () => {
           </div>
           <div className="day">
             <i className="fas fa-sun icon"></i> {dateTime.day}
+            <div>digital clock</div>
           </div>
         </div>
       </div>
